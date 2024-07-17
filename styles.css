@@ -1,0 +1,565 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    margin-top:1.5rem;
+    margin-left:1rem;
+    margin-right:.5rem;
+    display:flex;
+}
+
+.logo{
+    height:auto;
+    width:3rem;
+}
+
+.navigation button{
+    border:.5rem solid transparent;
+    background: darkslateblue;
+    border-radius: .5rem;
+    width:10rem;
+    cursor: pointer;
+    justify-content: right;
+    position: absolute;
+    right:.5rem;
+    padding:.5rem;
+    margin-top:.2rem;
+}
+
+.navigation button a{
+    color:white;
+    text-decoration: none;
+}
+
+.home{
+    margin-top:5rem;
+    margin-left:1rem;
+    margin-right:.5rem;
+}
+
+.home .content h3{
+    color: darkslateblue;
+}
+
+.home .content h1{
+    color: darkslateblue;
+    margin-top:1rem;
+}
+
+.home .content h1 span{
+    color: dimgray;
+}
+
+.home .content p{
+    color: dimgray;
+    margin-top:1.5rem;
+}
+
+.home .content .button{
+    margin-top: 2rem;
+}
+
+.home .button .btn1 button{
+    border:.5rem solid transparent;
+    background: darkslateblue;
+    border-radius: .5rem;
+    width:10rem;
+    cursor: pointer;
+    padding:.8rem;
+}
+
+.home .button .btn1 button a{
+    text-decoration: none;
+    color:white;
+}
+
+.home .button .btn2 button{
+    border:.2rem solid dimgrey;
+    background: transparent;
+    border-radius: .5rem;
+    width:10rem;
+    cursor: pointer;
+    padding:.8rem;
+    margin-top:1rem;
+}
+
+.home .button .btn2 button a{
+    text-decoration: none;
+    color:dimgray;
+}
+
+.home .image{
+    display:none;
+}
+
+hr{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:3rem;
+    border-radius:2rem;
+}
+
+.service{
+    margin-top:7rem;
+    margin-left:1rem;
+    margin-right:.5rem;
+}
+
+.service h1{
+    color:darkslateblue;
+}
+
+.service h1 span{
+    color:dimgray;
+}
+
+.service-img{
+    margin-top: 2rem;
+}
+
+.service-img .service1 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    text-align: center;
+    width:100%;
+}
+
+.service-img .service1 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.service-img .service1 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.service-img .service2 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    margin-top:4rem;
+    text-align: center;
+    width:100%;
+}
+
+.service-img .service2 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.service-img .service2 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.service-img .service3 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    margin-top:4rem;
+    text-align: center;
+    width:100%;
+}
+
+.service-img .service3 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.service-img .service3 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.recent{
+    margin-top:3rem;
+    margin-left:1rem;
+    margin-right:.5rem;
+}
+
+.recent h1{
+    color:darkslateblue;
+}
+
+.recent h1 span{
+    color:dimgray;
+}
+
+.recent-img{
+    margin-top: 2rem;
+}
+
+.recent-img .recent1 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    text-align: center;
+    width:100%;
+}
+
+.recent-img .recent1 p{
+    color:#888888;
+}
+
+.recent-img .recent1 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.recent-img .recent1 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.recent-img .recent1 button a{
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    text-decoration: none;
+}
+
+.recent-img .recent2 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    margin-top:4rem;
+    text-align: center;
+    width:100%;
+}
+
+.recent-img .recent2 p{
+    color:#888888;
+}
+
+.recent-img .recent2 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.recent-img .recent2 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.recent-img .recent2 button a{
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    text-decoration: none;
+}
+
+.recent-img .recent3 img{
+    height:auto;
+    width:23rem;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    margin-top:4rem;
+    text-align: center;
+    width:100%;
+}
+
+.recent-img .recent3 p{
+    color:#888888;
+}
+
+.recent-img .recent3 h2{
+    font-size: 1.8rem;
+    color:dimgray;
+}
+
+.recent-img .recent3 button{
+    background-color: darkslateblue;
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    margin-top:1rem;
+    border-radius: .2rem;
+}
+
+.recent-img .recent3 button a{
+    color:white;
+    font-size: 1rem;
+    padding:.3rem;
+    text-decoration: none;
+}
+
+.about{
+    text-align: center;
+    background-color: 	#1da2d8;
+    margin-top:5rem;
+    padding:3rem 1rem;
+}
+
+.about h1{
+    color:white;
+    font-size:2.5rem;
+}
+
+.about p{
+    margin-top:2rem;
+    color:white;
+    font-size:1.5rem;
+}
+
+.about button{
+    margin-top:2rem;
+    border-radius: 2rem;
+    background: transparent;
+    width:13rem;
+    border-color: white;
+    padding:.5rem;
+}
+
+.about button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:white;
+}
+
+.about .about1{
+    background-color: white;
+    margin-left:3rem;
+    margin-right:3rem;
+    margin-top:3rem;
+    border-radius: .7rem;
+}
+
+.about .about1 p{
+    color:#888888;
+    font-size:1.2rem;
+    padding:2rem;
+    padding-bottom: .2rem;
+}
+
+.about .about1 h1{
+    color:black;
+    font-size:4rem;
+    padding:2rem;
+}
+
+.about .about2{
+    background-color: white;
+    margin-left:3rem;
+    margin-right:3rem;
+    margin-top:3rem;
+    border-radius: .7rem;
+}
+
+.about .about2 p{
+    color:#888888;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    padding:2rem;
+    padding-bottom: .2rem;
+}
+
+.about .about2 h1{
+    color:black;
+    font-size:4rem;
+    padding:2rem;
+}
+
+.about .about3{
+    background-color: white;
+    margin-left:3rem;
+    margin-right:3rem;
+    margin-top:3rem;
+    border-radius: .7rem;
+}
+
+.about .about3 p{
+    color:#888888;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    padding:2rem;
+    padding-bottom: .2rem;
+}
+
+.about .about3 h1{
+    color:black;
+    font-size:4rem;
+    padding:2rem;
+}
+
+.guide{
+    margin-top:4rem;
+    margin-left:1rem;
+    margin-right:.5rem;
+}
+
+.guide h1{
+    color:darkslateblue;
+}
+
+.guide h1 span{
+    color:dimgray;
+}
+
+.guide p{
+    margin-top:2rem;
+    color:#888888;
+    font-size:1.5rem;
+}
+
+.guide form{
+    margin-top:2rem;
+}
+
+.guide form label{
+    font-size:1.5rem;
+    color:dimgray;
+}
+
+.guide form input{
+    margin-top:.8rem;
+    font-size:1rem;
+    padding:.5rem;
+    border-radius: .5rem;
+}
+
+.guide form .btn{
+    width:7rem;
+    background-color: dimgray;
+    color:white;
+    border: transparent;
+    border-radius: 1rem;
+}
+
+.guide img{
+    width:100%;
+    text-align: center;
+    height:25rem;
+}
+
+.contact{
+    margin-top:3rem;
+    margin-left:1rem;
+    margin-right:.5rem;  
+}
+
+.contact img{
+    height:auto;
+    width:4rem;
+}
+
+.contact .location{
+    margin-top:2rem;
+    display: flex;
+    gap:2rem;
+}
+
+.location1 i{
+    font-size: 2.5rem;
+    color:dimgray;
+}
+
+.location2 p{
+    color: darkslateblue;
+}
+
+.contact .email{
+    margin-top:2rem;
+    display: flex;
+    gap:2rem;
+}
+
+.email1 i{
+    font-size: 1.5rem;
+    color:dimgray;
+}
+
+.email2 p{
+    color: darkslateblue;
+}
+
+.contact .call{
+    margin-top:2rem;
+    display: flex;
+    gap:2rem;
+}
+
+.call1 i{
+    font-size: 1.5rem;
+    color:dimgray;
+}
+
+.call2 p{
+    color: darkslateblue;
+}
+
+.com{
+    margin-top:3rem;
+    margin-left:1rem;
+    margin-right:.5rem;  
+}
+
+.com h1{
+    color:darkslateblue;
+}
+
+.com ul li{
+    font-size:1.5rem;
+    margin-top:1rem;
+}
+
+.com ul li a{
+    text-decoration: none;
+    color:dimgray;
+}
+
+.footer{
+    margin-top:3rem;
+    text-align: center;
+    margin-left:1rem;
+    margin-right:.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer p{
+    color:#888888;
+}
+
+.footer .icon{
+    display: flex;
+    margin-top:2rem;
+    gap:2rem;
+    justify-content: center;
+}
+
+.footer .icon i{
+    font-size:2rem;
+    color:dimgray;
+}
+
+
